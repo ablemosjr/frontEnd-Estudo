@@ -4,12 +4,8 @@
 @import url('./main.css');
 @import url('./components/_button.css');
 
-* {
-  border: none;
-}
-
 /* ===================================
- Style - Content
+ Style - Conteúdo
 =================================== */
 .content {
   display: flex;

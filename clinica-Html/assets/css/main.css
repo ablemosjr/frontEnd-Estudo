@@ -15,10 +15,11 @@
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
+  border: none;
 }
 
 /* ===================================
- Body
+ Corpo
 =================================== */
 body {
   width: 100%;
@@ -72,7 +73,7 @@ body {
 }
 
 /* ===================================
- Style - Header e Footer
+ Style - Cabeçalho e rodapé
 =================================== */
 .header p {
   color: var(--primaryColor);
@@ -116,7 +117,7 @@ body {
 }
 
 /* ===================================
- Style - Main
+ Style - Principal
 =================================== */
 .main h1 { 
   display: flex;

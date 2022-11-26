@@ -3,10 +3,28 @@
 =================================== */
 @import url('./main.css');
 
-* {
-  border: none;
-}
-
 /* ===================================
  Style - Tabela
 =================================== */
+table {
+  padding: 3% 16%;
+  cursor: pointer;
+}
+
+table tbody td {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #545454;
+  letter-spacing: 1px;
+}
+
+table thead th {
+  background-color: #545454;
+  color: var(--primaryColor);
+  padding: 10px 50px 10px 50px;
+}
+
+table tbody tr:nth-child(even) td {
+  background-color: #f1f1f1;
+}

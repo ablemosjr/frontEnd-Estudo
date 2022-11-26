@@ -1,0 +1,36 @@
+/* ===================================
+ Default e imports
+=================================== */
+@import url('./main.css');
+@import url('./components/_button.css');
+
+/* ===================================
+ Style - Formulário e Contatos
+=================================== */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 10%;
+  margin-top: -2%;
+  color: #545454;
+  font-weight: bold;
+}
+
+form label {
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+
+.btn { margin-top: 6%; }
+
+.info {
+  float: right;
+  margin-top: -32%;
+  margin-right: 10%;
+  text-align: right;
+  color:#545454;
+  font-weight: bold;
+}
+
+.info p { margin-top: 5px; }
