@@ -1,0 +1,28 @@
+/* ===================================
+ Default e imports
+=================================== */
+@import url('./main.css');
+
+* {
+  border: none;
+}
+
+/* ===================================
+ 
+=================================== */
+.main h1 { 
+  justify-content: flex-start; 
+  margin-top: 30px;
+  margin-left: 80px;
+  letter-spacing: 3px;
+}
+
+.content p {
+  margin-left: 80px;
+  margin-top: 25px;
+  width: 80%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #545454;
+  letter-spacing: 1px;
+}
