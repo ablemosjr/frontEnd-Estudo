@@ -1,0 +1,105 @@
+/* ==============================
+  Main Styles
+============================== */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul { 
+  list-style: none; 
+  padding-left: 5px; 
+}
+
+a { 
+  color:blue; 
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header { margin: 10px 0px 6px 30px; }
+
+.bar {
+  background-color: #f9f9fb;
+  padding: 15px;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+  max-width: 1440px;
+  margin: auto;
+  grid-gap: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main anchors";
+  grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 14px;
+}
+
+main h1 { 
+  font-size: 1.8rem;
+  font-style: italic; 
+}
+
+.main ul { 
+  padding-left: 30px; 
+  list-style: disc;
+}
+
+.main-content {
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.list-reference li {
+  list-style: decimal;
+  font-size: 0.9rem;
+}
+
+.footer {
+  margin-top: -49px;
+  min-height: 80px;
+  border-top: solid 1px #cdcdcd;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer a { font-size: 0.8rem; }
+
+.anchors {
+  border-left: solid 1px #cdcdcd;
+  padding-left: 15px;
+}
+
+.anchors ul li { margin-bottom: 5px; }
+
+.sidebar { border-right: solid 1px #cdcdcd; }
+
+.sidebar ul li { margin-bottom: 10px; }
+
+figure { 
+  text-align: center; 
+  border: solid 1px #cdcdcd; 
+  background-color: #f9f9fb; 
+  padding: 5px;
+}
+
+table { border-collapse: collapse; }
+
+table thead {
+  border: solid 1px #cdcdcd;
+  background-color: #eaecf0; 
+}
+
+table th, td { border: solid 1px #cdcdcd; }
