@@ -14,12 +14,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 main {
   background-color: #F9F9F9;
   grid-area: main;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  padding: 1.5rem;
+  row-gap: 8%;
+  column-gap: 2%;
 }
 
 aside {
@@ -69,6 +73,13 @@ nav img:first-child { margin-left: 1.5rem; }
   border-radius: 50%;
   object-fit: cover;
 }
+
+main .card img {
+  width: 250px;
+  height: 140px;
+}
+
+
 
 aside {
   display: flex;
