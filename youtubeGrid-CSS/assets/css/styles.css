@@ -1,0 +1,138 @@
+@import url('/assets/css/global.css');
+
+body {
+  display: grid;
+  grid-template: "header header header" 50px
+  "sidebar main main" 60vh
+  ". main main" 32.8vh
+  / 1fr 3fr 2fr;
+}
+
+header {
+  background-color: #FFF;
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  background-color: #F9F9F9;
+  grid-area: main;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  padding: 1.5rem;
+  row-gap: 8%;
+  column-gap: 2%;
+}
+
+aside {
+  background-color: #FFF;
+  grid-area: sidebar;
+}
+
+nav { 
+  width: max-content; 
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav img { cursor: pointer; }
+nav img:first-child { margin-left: 1.5rem; }
+
+.search { display: flex; }
+
+.search button {
+  padding: 5px 10px;
+  background: #F8F8F8;
+  border: 1px solid #CCC;
+  border-left: none;
+  cursor: pointer;
+}
+
+.search input {
+  width: 300px;
+  border: 1px solid #CCC;
+  padding: 10px;
+  text-align: left;
+}
+
+.utility {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.utility img { cursor: pointer; }
+.utility img:nth-child(3) { margin-right: 1.8rem; }
+
+.perfil-icon {
+  width: 35px; 
+  height: 35px; 
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main .card {
+  display: grid;
+  cursor: pointer;
+}
+
+main .card img {
+  width: 250px;
+  height: 140px;
+}
+
+.card .info {
+  display: flex;
+  column-gap: 1rem; 
+  margin-top: 0.5rem;
+}
+
+.info  p {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.info p:nth-child(2), p:nth-child(3) {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #515151;
+}
+
+.info p:nth-child(2) { margin-top: 0.6rem; }
+.info p:nth-child(3) { margin-top: 0.2rem; }
+
+.info p:nth-child(2):hover {
+  color: #000;
+  font-weight: 600;
+} 
+
+.card .info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.1rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+aside [class="icons"] {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 400;
+  background: #FFF;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.card [title="w-icon"] { border: 1px solid #CCC; }
