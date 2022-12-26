@@ -19,7 +19,7 @@
 .grass { background-color: #77c850; }
 .fire { background-color: #EE7F30; }
 .water { background-color: #678FEE; }
-.eletric { background-color: #F7C72E; }
+.electric { background-color: #F7C72E; }
 .ice { background-color: #98D5D7; }
 .ground { background-color: #DFBF69; }
 .flying { background-color: #A98FF0; }
@@ -107,4 +107,24 @@
   .pokemons {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.pagination button {
+  padding: .25rem .5rem;
+  margin: .25rem 0;
+  font-size: .625rem;
+  color: #FFF;
+  background-color: #6C79DB;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
 }
