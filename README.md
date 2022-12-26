@@ -8,4 +8,5 @@
   <li><a href="https://trilha-css.vercel.app/" target="_blank">trilha-CSS</a></li>
   <li><a href="https://youtube-css.vercel.app/" target="_blank">youtube-CSS</a></li>
   <li><a href="https://youtubegrid-css.vercel.app/" target="_blank">youtubeGrid-CSS</a></li>
+  <li><a href="https://pokedex-appjs.netlify.app/" target="_blank">pokedex-js</a></li>
 </ul>
