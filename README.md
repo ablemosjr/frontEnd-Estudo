@@ -6,4 +6,5 @@
   <li><a href="https://clinica-html.vercel.app/" target="_blank">clinica-Html</a></li>
   <li><a href="https://wiki-html.vercel.app/" target="_blank">wiki-Html</a></li>
   <li><a href="https://trilha-css.vercel.app/" target="_blank">trilha-CSS</a></li>
+  <li><a href="https://pokedex-appjs.netlify.app/" target="_blank">trilha-CSS</a></li>
 </ul>
