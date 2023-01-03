@@ -1,0 +1,86 @@
+{
+  "name": "Alessandro B Lemos Jr",
+  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "job": "Análise e Desenvolvimento de Sistemas",
+  "location": "Sorocaba - SP",
+  "phone": "(15) 99677-1616",
+  "email": "ablemosjunior@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML5",
+        "logo": ""
+      },
+      {
+        "name": "CSS3",
+        "logo": ""
+      },
+      {
+        "name": "JavaScript",
+        "logo": ""
+      },
+      {
+        "name": "Node.js",
+        "logo": ""
+      },
+      {
+        "name": "TypeScript",
+        "logo": ""
+      },
+      {
+        "name": "Java",
+        "logo": ""
+      },
+      {
+        "name": "MySQL",
+        "logo": ""
+      },
+      {
+        "name": "Github",
+        "logo": ""
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização",
+      "Comprometimento",
+      "Facilidade de comunicação",
+      "Metologias Ágeis"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Landing page Stranger Things - Mundo Invertido",
+      "url": "https://ablemosjr.github.io/mundo-invertido.github.io/",
+      "github": true
+    },
+    {
+      "name": "Pokedex",
+      "url": "https://pokedex-appjs.netlify.app/",
+      "github": false
+    },
+    {
+      "name": "Netflix clone",
+      "url": "https://ablemosjr.github.io/netflix-clone/",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Consultor Técnico / Jet Balbek Veículos Ltda",
+      "period": "Jul 2021 - Jan 22",
+      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+    },
+    {
+      "name": "Analista de Suporte / TalkD Solutions Brazil",
+      "period": "Nov 2018 - Jun 2020",
+      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+    }
+  ]
+}
