@@ -1,6 +1,6 @@
 {
   "name": "Alessandro B Lemos Jr",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "photo": "https://avatars.githubusercontent.com/u/89210954?v=4",
   "job": "Análise e Desenvolvimento de Sistemas",
   "location": "Sorocaba - SP",
   "phone": "(15) 99677-1616",
@@ -9,35 +9,35 @@
     "hardSkills": [
       {
         "name": "HTML5",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/html5.svg"
       },
       {
         "name": "CSS3",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/css.svg"
       },
       {
         "name": "JavaScript",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/javascript.svg"
       },
       {
         "name": "Node.js",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/nodejs.svg"
       },
       {
         "name": "TypeScript",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/typescript.svg"
       },
       {
         "name": "Java",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/java.svg"
       },
       {
         "name": "MySQL",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/mysql.svg"
       },
       {
         "name": "Github",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/github.svg"
       }
     ],
     "softSkills": [
