@@ -70,6 +70,7 @@ function updateExperience(profileData) {
 }
 
 (async () => {
+  debugger
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
   updateSoftSkills(profileData);

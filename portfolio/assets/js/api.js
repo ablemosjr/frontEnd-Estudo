@@ -4,4 +4,3 @@ async function fetchProfileData() {
   const fetching = await fetch(url);
   return await fetching.json();
 }
-
