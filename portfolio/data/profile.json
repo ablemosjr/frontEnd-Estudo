@@ -1,0 +1,86 @@
+{
+  "name": "Alessandro B Lemos Jr",
+  "photo": "https://avatars.githubusercontent.com/u/89210954?v=4",
+  "job": "Análise e Desenvolvimento de Sistemas",
+  "location": "Sorocaba - SP",
+  "phone": "(15) 99677-1616",
+  "email": "ablemosjunior@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML5",
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/html5.svg"
+      },
+      {
+        "name": "CSS3",
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/css.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/javascript.svg"
+      },
+      {
+        "name": "Node.js",
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/nodejs.svg"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/typescript.svg"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/java.svg"
+      },
+      {
+        "name": "MySQL",
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/mysql.svg"
+      },
+      {
+        "name": "Github",
+        "logo": "https://raw.githubusercontent.com/ablemosjr/frontEnd-Estudo/portfolio-api/portfolio/data/skills/github.svg"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização",
+      "Comprometimento",
+      "Facilidade de comunicação",
+      "Metologias Ágeis"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Landing page Stranger Things - Mundo Invertido",
+      "url": "https://ablemosjr.github.io/mundo-invertido.github.io/",
+      "github": true
+    },
+    {
+      "name": "Pokedex",
+      "url": "https://pokedex-appjs.netlify.app/",
+      "github": false
+    },
+    {
+      "name": "Netflix clone",
+      "url": "https://ablemosjr.github.io/netflix-clone/",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Analista de Suporte / TalkD Solutions Brazil",
+      "period": "Jul 2021 - Jan 22",
+      "description": "Busca e pesquisa, contratação, gerenciamento de contratos e links para área de infraestrutura de redes, atendimento, SLA's, no mapeamento de redes nos estados brasileiros e na criação de infográficos para reports diários."
+    },
+    {
+      "name": "Consultor Técnico / Jet Balbek Veículos Ltda",
+      "period": "Nov 2018 - Jun 2020",
+      "description": "Recepcionamento, atendimento e agendamento de clientes em oficina, pós-vendas, busca de futuros clientes e parcerias, compra e venda de produtos e mercadorias."
+    }
+  ]
+}

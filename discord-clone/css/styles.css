@@ -1,0 +1,169 @@
+
+@import url('global.css');
+
+header {
+  background-image: url('../images/background.svg');
+  background-repeat: no-repeat;
+  background-position: 73% 0%;
+  padding: 20px;
+  color: var(--white);
+}
+
+header h2 {
+  width: 200px;
+  font-size: calc(1.8rem + 1vw);
+  font-weight: 400;
+  margin: 2rem 0;
+}
+
+header p {
+  width: 98%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header div button {
+  width: 100%;  
+  font-weight: 400;
+  padding: 15px;
+  border: none;
+  border-radius: 2rem;
+  margin: .5rem 0;
+  cursor: pointer;
+}
+
+header div 
+button.download-for-windows { margin-top: 1.5rem; }
+
+header div 
+button.download-for-windows:hover { 
+  color: var(--purple);
+  box-shadow: 0 8px 12px 1px var(--purple);
+}
+
+header div 
+button.use-discord-on-web {
+  background-color: var(--black);
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+header div 
+button.use-discord-on-web:hover { 
+  box-shadow: 0 5px 15px 1px var(--black); 
+}
+
+main .container {
+  margin: 1rem 0;
+  padding: 1.5rem
+}
+
+main .container[title="even"] { background-color: var(--even-bg); } 
+
+main .container img {
+  max-width: 100%;
+}
+
+main .container h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1.8rem;
+  width: 80%;
+  margin-top: 1.7rem;
+}
+
+main .container p {
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 1.3rem;
+}
+
+main .container h1 { margin-bottom: 1.5rem; }
+main .container img.p-img { margin-top: 1rem; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  height: 100px;
+}
+
+footer img {
+  max-width: 220px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  header { background-position: right; }
+
+  header div button { width: 50%; }
+
+  main .container.nd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "left right";
+  }
+
+  main .container.nd[title="even"] img { 
+    grid-area: right;
+    margin-left: 1rem;
+  }
+
+  main .container.st { text-align: center; }
+  main .container.st p { padding: 0 2rem; }
+
+  main .container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-size: cover; 
+  }
+
+  header h2 { width: 300px; }
+  
+  header p {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+
+  header div { 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+  }
+
+  header div button { width: 30%; }
+  header div button:nth-child(2) { margin-left: 1rem; }
+
+  main .container {
+    padding: 0 10rem;
+    align-items: center;
+  }
+  main .container.nd h3 { width: 50%; }
+  main .container.nd p { width: 80%; }
+
+  main .container.st h1 { 
+    width: 400px;
+    align-self: center;
+    padding-top: 2rem; 
+  }
+}

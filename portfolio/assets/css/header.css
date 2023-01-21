@@ -15,7 +15,7 @@
   right: 1rem;
   width: 2rem;
   height: 2rem;
-  background-image: url('/assets/images/icons/header.svg');
+  background-image: url('../images/icons/header.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -56,13 +56,13 @@
   margin-right: .5rem;
 }
 
-.information .job::before { background-image: url('/assets/images/icons/job.svg'); }
+.information .job::before { background-image: url('../images/icons/job.svg'); }
 
-.information .location::before { background-image: url('/assets/images/icons/local.svg'); }
+.information .location::before { background-image: url('../images/icons/local.svg'); }
 
-.information .phone::before { background-image: url('/assets/images/icons/whatsapp.svg'); }
+.information .phone::before { background-image: url('../images/icons/whatsapp.svg'); }
 
-.information .email::before { background-image: url('/assets/images/icons/email.svg'); }
+.information .email::before { background-image: url('../images/icons/email.svg'); }
 
 @media only screen and (min-width: 768px) {
   .header {
