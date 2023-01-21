@@ -107,17 +107,63 @@ footer img {
 
   header div button { width: 50%; }
 
-  main .container {
+  main .container.nd {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "a b";
+    grid-template-areas: "left right";
   }
 
-  main .container[title="even"] img { grid-area: b;}
-  main .container div { margin-left: 2rem;}
-  main .container p { width: 90%; }
+  main .container.nd[title="even"] img { 
+    grid-area: right;
+    margin-left: 1rem;
+  }
+
+  main .container.st { text-align: center; }
+  main .container.st p { padding: 0 2rem; }
+
+  main .container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-size: cover; 
+  }
 
+  header h2 { width: 300px; }
+  
+  header p {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+
+  header div { 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+  }
+
+  header div button { width: 30%; }
+  header div button:nth-child(2) { margin-left: 1rem; }
+
+  main .container {
+    padding: 0 10rem;
+    align-items: center;
+  }
+  main .container.nd h3 { width: 50%; }
+  main .container.nd p { width: 80%; }
+
+  main .container.st h1 { 
+    width: 400px;
+    align-self: center;
+    padding-top: 2rem; 
+  }
 }
