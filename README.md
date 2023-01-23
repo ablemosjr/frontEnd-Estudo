@@ -10,4 +10,5 @@
   <li><a href="https://youtubegrid-css.vercel.app/">youtubeGrid-CSS</a></li>
   <li><a href="https://pokedex-appjs.netlify.app/">pokedex-js</a></li>
   <li><a href="https://ablemosjr-portfolio.netlify.app/">portfolio</a></li>
+  <li><a href="https://cl-discord.netlify.app/">discord-clone</a></li>
 </ul>
