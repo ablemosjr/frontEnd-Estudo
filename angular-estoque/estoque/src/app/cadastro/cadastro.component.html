@@ -1,0 +1,19 @@
+
+<div class="mt-5">
+  <label for="nome" class="form-label">Produto</label>
+  <input
+  id="nome"
+  class="form-control"
+  name="nome"
+  [(ngModel)]="produto.nome">
+
+  <label for="preco" class="form-label mt-3">Preço</label>
+  <input
+  id="preco"
+  class="form-control"
+  name="preco"
+  [(ngModel)]="produto.preco">
+
+  <button type="button" class="btn btn-success mt-4"
+  (click)="adicionar()">Salvar</button>
+</div>
