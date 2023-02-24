@@ -8,7 +8,8 @@ import { Produto } from '../objetos/Produto';
   providedIn: 'root'
 })
 export class ProdutoService {
-  private API = 'http://localhost:3000/produtos'
+  //private readonly api = `${environment.API}produtos` (TS2339)
+  private readonly API = 'http://localhost:3000/produtos'
 
   constructor(private $http: HttpClient) { }
 
