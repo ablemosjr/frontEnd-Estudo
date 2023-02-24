@@ -10,9 +10,9 @@ import { ProdutoService } from '../service/produto.service';
   styleUrls: ['./cadastro.component.css']
 })
 export class CadastroComponent implements OnInit {
-
   id: any
   produto: Produto = new Produto(0, '', 0);
+  textoBotao: string = 'Salvar'
 
   constructor(
     private router: Router,
@@ -23,19 +23,37 @@ export class CadastroComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.params.subscribe(parametros => {
       if (parametros['id']) {
+        this.textoBotao = 'Editar'
         this.id = parametros['id']
+        this.prodService.buscar(this.id).subscribe(prod => {
+          this.produto = prod
+        })
       }
     });
   }
 
   adicionar = () => {
-    this.prodService.adicionar(this.produto).subscribe(
-      sucess => console.log('Salvou'),
-      error => console.log('Deu ruim'),
-      () => console.log('Inclusão completa')
-    )
-    this.router.navigate(['home'])
+    if (this.textoBotao == 'Salvar') {
+      this.prodService.adicionar(this.produto).subscribe(
+        sucess => this.navegar('home'),
+        error => console.log('Deu ruim'),
+        () => console.log('Inclusão completa')
+      )
+    } else {
+      this.editar()
+    }
   }
 
+  editar = () => {
+    this.prodService.editar(this.produto).subscribe(
+      sucess => this.navegar('home'),
+      error => console.log('Deu ruim'),
+      () => console.log('Alteração completa')
+    )
+  }
+
+  navegar = (rota: any) => {
+    this.router.navigate([rota])
+  }
 
 }

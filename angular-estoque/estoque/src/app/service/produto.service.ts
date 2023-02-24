@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { environment } from 'src/environments/environment';
 
+import { environment } from 'src/environments/environment';
 import { Produto } from '../objetos/Produto';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProdutoService {
-  private readonly API = `${environment.API}produtos`
+  private API = 'http://localhost:3000/produtos'
 
   constructor(private $http: HttpClient) { }
 
@@ -22,5 +22,13 @@ export class ProdutoService {
 
   adicionar(prod: Produto) {
     return this.$http.post(this.API, prod)
+  }
+
+  editar(prod: Produto) {
+    return this.$http.put(`${this.API}/${prod.id}`, prod)
+  }
+
+  buscar(id: any) {
+    return this.$http.get<Produto>(`${this.API}/${id}`)
   }
 }
