@@ -1,4 +1,4 @@
-.main-header {    
+.main-header {
     padding: 10px 0px;
     display: flex;
     flex-flow: row wrap;
@@ -7,9 +7,9 @@
     column-gap: 40px;
 }
 
-.main-header__title {    
+.main-header__title {
     font-size: 80px;
-    letter-spacing: -1.5px;    
+    letter-spacing: -1.5px;
 }
 
 .main-header__title--blue {
@@ -52,33 +52,7 @@
 
 .badge-carrinho {
     background-color: var(--dark-blue);
-    padding: 5px 10px;    
+    padding: 5px 10px;
     border-radius: 4px;
     color: white;
-}
-
-.search-form{
-    height: 44px;
-    display: flex;
-}
-
-.search-form input{
-    box-sizing: border-box;
-    height: 56px;
-    padding: 28px;
-    flex:1;
-    background-color: var(--light-gray);
-    color: var(--gray);
-    border: none;
-    transition: all -3s ease-in-out;
-    font-size: 22px;
-}
-
-.search-form button{
-    width: 56px;
-    height: 56px;
-    background-color: var(--blue);
-    border:none;
-    color: #fff;
-    font-size: 22px;
 }
